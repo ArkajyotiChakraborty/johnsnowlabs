@@ -1589,5 +1589,16 @@ nlp.load('en.t5').predict('What is the most spoken language in India?')
 nlp.load('en.t5').predict('What is the capital of Germany?')
 >>> Berlin
 ```
+</div></div></div><div class="h3-box" markdown="1">
+
+## Zero Shot Classifier
+[Sentiment Classifier Example](https://colab.research.google.com/https:/github.com/JohnSnowLabs/nlu/tree/master/examples/colab/component_examples/classifiers/Zero_Shot_Classifiers.ipynb)
+
+Classifies binary sentiment for every sentence, either positive or negative.
+
+```python
+nlp.load('sentiment').predict("I hate this guy Sami")
+```
+
 
 </div></div>
